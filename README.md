@@ -9,7 +9,7 @@
 * [Link URL of deployed app to Heroku](#link-URL-of-deployed-app-to-Heroku)
 
 ## **_Description of the project_**
-This project is a note taker application using Nodejs ///////.
+This project is a note taker application using Nodejs, Expressjs and Heroku. The user is able to create notes, review the created notes on a list, and delete them.
 
 ## **_Technologies used_**
 Project is created using:
@@ -18,7 +18,6 @@ Project is created using:
 * JavaScript
 * Nodejs
 * Expressjs
-* ////////TDD (jest tests)//////
 * Heroku
 
 ## **_Usage_**
@@ -33,15 +32,11 @@ Here are some guidelines for installing the project on your local machine in ord
 
 2. Then, make sure that your repo includes a package.json with the required dependencies. You can create one by running ```npm init``` in your command line.
 
-3. Make sure JEST by entering ```npm install jest --save-dev```
+3. Make sure to download Express.js by entering "npm install express" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/express).
 
-4. Make sure to download Express.js by entering "npm install express" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/express).
+4. Run ```node server.js``` or ```node server``` in your terminal to launch the application.
 
-5. ////////Run ```node server.js``` or ```node server``` in your terminal to launch the application.//////////
-
-6. //////To make sure the Jest tests work, run ```npm run test``` and inspect what the CLI returns.//////
-
-7. Enjoy and don't hesitate to contribute!
+5. Enjoy and don't hesitate to contribute!
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/Noemiegrau/note-taker
