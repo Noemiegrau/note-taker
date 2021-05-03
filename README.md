@@ -6,6 +6,7 @@
 * [Usage](#usage)
 * [Installation](#installation)
 * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
+* [Link URL of deployed app to Heroku](#link-URL-of-deployed-app-to-Heroku)
 
 ## **_Description of the project_**
 This project is a note taker application using Nodejs ///////.
@@ -44,3 +45,6 @@ Here are some guidelines for installing the project on your local machine in ord
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/Noemiegrau/note-taker
+
+## **_Link URL of deployed app to Heroku_**
+https://rocky-tor-74214.herokuapp.com/
