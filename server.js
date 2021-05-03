@@ -38,6 +38,10 @@ function createNewNote(body, notesArray) {
   return note;
 };
 
+function deleteNote(id, notesArray) {
+    
+};
+
 // GET /notes should return the notes.html file
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/notes.html'));
@@ -65,10 +69,11 @@ app.post('api/notes', (req, res) => {
     res.json(note);
 });
 
-// Update note
-
 // Delete note
-
+app.post('api/notes', (req, res) => {
+    let results = deleteNote(req.params.id, notes);
+    res.json(results);
+});
 
 // GET /* should return the index.html file
 app.get('*', (req, res) => {
