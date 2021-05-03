@@ -32,7 +32,7 @@ Here are some guidelines for installing the project on your local machine in ord
 
 2. Then, make sure that your repo includes a package.json with the required dependencies. You can create one by running ```npm init``` in your command line.
 
-3. Make sure to download Express.js by entering "npm install express" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/express).
+3. Make sure to download Express.js by entering "npm install express" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/express)
 
 4. Run ```node server.js``` or ```node server``` in your terminal to launch the application.
 
