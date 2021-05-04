@@ -56,7 +56,7 @@ function deleteNote(id, notesArray) {
 };
 
 // GET /notes should return the notes.html file
-app.get('/notes', (req, res) => {
+app.get('/notes.html', (req, res) => {
   res.sendFile(path.join(__dirname, './public/notes.html'));
 });
 
