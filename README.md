@@ -28,15 +28,15 @@ Final app should look something like this:
 ## **_Installation_**
 Here are some guidelines for installing the project on your local machine in order to be able to try it: 
 
-1. Since Node.js applications don't have a front end, clone or download the repository to your own local machine and run it from your command line.
+1. Clone or download the repository to your own local machine and run it from your command line.
 
-2. Then, make sure that your repo includes a package.json with the required dependencies. You can create one by running ```npm init``` in your command line.
+2. Then, make sure that your repo includes a package.json with the required dependencies. You can create one by running ```npm init``` in your command line, ```npm install``` to install the dependencies.
 
-3. Make sure to download Express.js by entering "npm install express" in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/express)
+3. Make sure to download Express.js by entering ```npm install express``` in your terminal in the root directory of the project after downloading it onto your local machine. Learn more about this on [npm documentation.](https://www.npmjs.com/package/express)
 
-4. Run ```node server.js``` or ```node server``` in your terminal to launch the application.
+4. Run ```node server.js``` or ```node server``` in your terminal to launch the application. Or check the deployed app directly on the app's heroku link (https://rocky-tor-74214.herokuapp.com/).
 
-5. Enjoy and don't hesitate to contribute!
+5. Enjoy and don't hesitate to contribute! 🙂
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/Noemiegrau/note-taker
